@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Videos and Audios</title>
+    <style>
+       body{
+        background-color: black;
+       } 
+       h1{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: italic;
+        text-align: center;
+        color: wheat;
+       }
+       h3{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: italic;
+        text-align: center;
+        color: wheat;
+       }
+       h4{
+        font-family:'Courier New', Courier, monospace;
+        font-weight: italic;
+        text-align: center;
+        color: wheat;
+       }  
+    </style>
+</head>
+<body >
+    <h1>Table with Videos and Audios</h1>
+    <table border="1" style="width: 100%;">
+        <tr>
+            <td>
+              <h4>Table</h4>
+            </td>
+            <td>
+                <h3>Desktop</h3>
+            </td>
+            <td>
+                <h3>Internet</h3>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Video</h3>
+            </td>
+            <td>
+                <video width="400" height="400" controls>
+                    <source src="C:\Users\User\Downloads\2908583-uhd_4096_2160_24fps.mp4" type="video/mp4">
+                    Video from desktop.
+                </video>
+            </td>
+            <td>
+                
+                <video width="400" height="400" controls>
+                    <source src="https://cdn.pixabay.com/video/2020/07/30/46026-447087782_large.mp4" type="video/mp4">
+                    Video from internet.
+                </video>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h3>Audio</h3>
+            </td>
+            <td>
+                <audio controls>
+                    <source src="C:\Users\User\Downloads\se2001__happy-bird-singing(chosic.com).mp3" type="audio/mpeg">
+                    Audio from desktop.
+                </audio>
+            </td>
+            <td>    
+                <audio controls>
+                    <source src="https://assets.mixkit.co/active_storage/sfx/17/17-preview.mp3" type="audio/mpeg">
+                    Audio from internet.
+                </audio>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
